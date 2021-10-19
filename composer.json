@@ -1,0 +1,11 @@
+{
+    "name": "jcriotte/quete_twig_1",
+    "autoload": {
+        "psr-4": {
+            "Jcriotte\\QueteTwig1\\": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}

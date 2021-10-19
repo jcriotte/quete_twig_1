@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test Twig</title>
+</head>
+
+<body>
+
+    <h2>Voici la liste des produits ; </h2>
+
+        {% for product in products %}
+            <p>
+                {{product}}
+            </p>
+        {% endfor %}
+
+    {{ dump(products) }}        
+
+</body>
+</html>
